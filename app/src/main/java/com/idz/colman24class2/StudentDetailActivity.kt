@@ -62,7 +62,6 @@ class StudentDetailsActivity : AppCompatActivity() {
 
         student = Model.shared.students[studentIndex]
 
-        // Rebind views
         findViewById<TextView>(R.id.StudentName).text = student.name
         findViewById<TextView>(R.id.StudentID).text = student.id
         findViewById<TextView>(R.id.StudentPhone).text = student.phone
